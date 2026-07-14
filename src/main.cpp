@@ -23,6 +23,11 @@ enum Colors {
     RED = 3,
     BLUE = 2
 };
+Colors allColors[4] = {YELLOW, GREEN, RED, BLUE};
+
+//Random Color Choice
+int simonChoice = random(0,4);
+
 
 //Led Hold Time
 unsigned long prevLedTime = 0;
